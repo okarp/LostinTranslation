@@ -46,7 +46,8 @@ const listImages = imagePaths.map((imagePath) =>
     <img src={'../resources/signimgs/' + imagePath + '.png'} alt={imagePath}></img>
 );
 
-  return (     
+  return ( 
+      
     <div className="Translator"> 
     <div id="textbox">      
       <span id="textelement2">By pressing 'translate' the translation input will be translated and saved to your user account.<br/> Visit the profile section to see your last 10 queries</span>

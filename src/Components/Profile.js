@@ -8,10 +8,11 @@ function Profile() {
 
     function handleClick(event) {
         event.preventDefault();
-        localStorage.clear();        
+        localStorage.removeItem('user')
+        localStorage.removeItem('translates')
         history.push('/');
     }
-
+    
     return (
         <div>
             <h2>Translations:</h2>

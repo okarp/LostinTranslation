@@ -9,11 +9,11 @@ import Footer from './Components/Footer';
 import './App.css'
 import Profile from './Components/Profile';
 
-function App() {
+function App() {  
   return (
     <div className="App">
-      <Router>
-        <Header/>
+      <Router> 
+        <Header/>       
         <Switch>
           <Route exact path="/" component={InputField} />
           <Route path="/translator" component={Translator} />

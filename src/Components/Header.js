@@ -1,11 +1,11 @@
 import '../styles/Header.css'
 import {Link} from 'react-router-dom';
-function Header() {
-    const result = localStorage.getItem('username');
-    return (        
+
+function Header() { 
+    return (               
         <div className="Header">
             <h1>Lost in Translation</h1>
-            <Link to="/profile">{result}</Link>
+            <Link to="/profile">Profile</Link>
         </div>
     )
 }
