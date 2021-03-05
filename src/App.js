@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Footer from './Components/Footer';
 import './App.css'
+import Profile from './Components/Profile';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={InputField} />
           <Route path="/translator" component={Translator} />
-          {/*<Route path="/translation" component={Translation} />
-            <Route path="/profile" component={Profile} />*/}
+          <Route path="/profile" component={Profile} />
         </Switch>
         <Footer/>
       </Router>

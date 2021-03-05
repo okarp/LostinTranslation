@@ -54,7 +54,7 @@ const listImages = imagePaths.map((imagePath) =>
       <div id="formDiv">
       <form id="translateForm">                 
           <input type="text" value={formInputValue} onChange={e => (setFormInputValue(e.target.value))} />        
-        <input type="button" value="Translate" onClick={handleSubmit}/>
+        <input type="button" value="Translate" id="translateSubmit" onClick={handleSubmit}/>
       </form>
       </div>      
      
