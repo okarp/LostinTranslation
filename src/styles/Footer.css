@@ -1,0 +1,11 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    font-size: 0.4em;
+    font-family: serif;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:rgb(236, 195, 141); 
+  }

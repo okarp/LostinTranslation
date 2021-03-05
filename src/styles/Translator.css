@@ -1,0 +1,35 @@
+.Translator{
+    text-align: center;
+}
+
+#textelement{
+    font-size: 2em;
+    font-family: cursive;
+    font-weight: 200;
+    color: whitesmoke;  
+    letter-spacing: 0.1em;
+    line-height: 1.5em;    
+}
+
+#textelement2{
+    font-size: 1.1em;
+    font-family: cursive;
+    font-weight: 200;
+    color: whitesmoke;  
+    letter-spacing: 0.1em;
+    line-height: 1.5em;    
+}
+
+#textbox{
+    padding: 3em;
+}
+
+#translationBox{  
+    width:80%;
+    margin-left:10%;
+    padding: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
