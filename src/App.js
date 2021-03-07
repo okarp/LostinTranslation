@@ -8,6 +8,7 @@ import {
 import Footer from './Components/Footer';
 import './App.css'
 import Profile from './Components/Profile';
+import PrivateRouter from './Components/PrivateRouter';
 
 function App() {  
   return (
@@ -16,8 +17,8 @@ function App() {
         <Header/>       
         <Switch>
           <Route exact path="/" component={InputField} />
-          <Route path="/translator" component={Translator} />
-          <Route path="/profile" component={Profile} />
+          <PrivateRouter path="/translator" component={Translator} />
+          <PrivateRouter path="/profile" component={Profile} />
         </Switch>
         <Footer/>
       </Router>

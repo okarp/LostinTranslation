@@ -4,29 +4,25 @@ import '../styles/InputField.css'
 
 function InputField() {
 
-    const [value, setValue] = useState("")
+    const [value, setValue] = useState("")    
     let history = useHistory();
 
-    const handleSubmit = event => {
-        event.preventDefault();
-        localStorage.setItem('username', value);
-        const result = localStorage.getItem('username' || '');
-        console.log(result);
+    const handleSubmit = () => {        
+        localStorage.setItem('username', value);       
         history.push('/translator');
     }
 
     const onChange = (event) => {
         setValue(event.target.value);
-    }
-
+    }    
     return (
         <div className="InputField">
             <form onSubmit={handleSubmit}>                
                     <label>
-                        <p>Create a user</p>
+                        <p>Create a user to access the translator</p>
                         <input name="name" placeholder="What's your name?" onChange={onChange} />
                     </label>
-                    <button type="submit">Submit</button>               
+                    <div id="buttonDiv"><button type="button" id="button" onClick={handleSubmit}>Submit</button></div>               
             </form>
         </div>
     )

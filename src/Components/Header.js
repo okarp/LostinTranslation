@@ -5,7 +5,8 @@ function Header() {
     return (               
         <div className="Header">
             <h1>Lost in Translation</h1>
-            <Link to="/profile">Profile</Link>
+            <div><Link to="/profile">Visit your profile</Link></div>
+            <div><Link to="/translator">Sign language translator</Link></div>
         </div>
     )
 }

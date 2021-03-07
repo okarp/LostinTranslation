@@ -1,8 +1,31 @@
-.Header{
+.Header{    
     text-align: center;
     padding: 40px;
-    background-color:rgb(236, 195, 141);     
+    background-color:rgb(236, 195, 141);   
+    
 }
+
+a:link {
+    font-size: 1em;
+    font-family: cursive;
+    font-weight: 200;
+    color: whitesmoke;     
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: whitesmoke;    
+    font-weight: 800;
+    font-size: 1em;
+    text-decoration: none;
+  }
+  
+ 
+  a:hover {
+    color:black;
+  }
+  
+
 
 h1{
     font-size: 2.8em;

@@ -24,12 +24,12 @@
     padding: 3em;
 }
 
-#translationBox{  
-    width:80%;    
-    margin-left:10%;
-    padding: 50px;
+#translationBox{ 
+    display: inline-block;
+    padding: 5em;
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color:  rgb(138, 159, 180);
 }
 
