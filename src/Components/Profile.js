@@ -1,7 +1,5 @@
 import { useHistory } from 'react-router-dom';
 import '../styles/Profile.css'
-import {Link} from 'react-router-dom';
-
 function Profile() {
 
     let history = useHistory();    
