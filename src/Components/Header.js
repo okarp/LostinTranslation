@@ -1,8 +1,8 @@
 import '../styles/Header.css'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
-function Header() { 
-    return (               
+function Header() {
+    return (
         <div className="Header">
             <h1>Lost in Translation</h1>
             <div><Link to="/profile">Visit your profile</Link></div>
