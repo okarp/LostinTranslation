@@ -4,7 +4,7 @@ The application translates english words in to sign language symbols.
 ## About the project
 When navigating to the root page of the project for the first time, you are asked to create a user.
 A 'user' is just a username string which is stored in the browsers local storage. '/profile' and '/translator' paths are guarded,
-and they wont be accesible before creating a user.
+and they wont be accessible before creating a user.
 
 In the translator page you can translate words in to sign language. The 'translate' button fires the translation event, and corresponding sign language images will be displayed.
 The 'profile' page shows your latest translations, limited to max. 10 translation and ordered from newest to oldest.
