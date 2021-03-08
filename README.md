@@ -15,11 +15,11 @@ The project is built using [React](https://reactjs.org).
 
 Project was made by Mikko Siukola and Okko Partanen
 
-## Running the application
+A live demo of the project can be found at vercel:
+https://lostin-translation.vercel.app
+
+## Running the application locally
 First clone the repository and then run the following commands in root directory:
 ### `npm install`
 followed by
 ### `npm start`
-
-A live demo of the project can be found at vercel:
-https://lostin-translation.vercel.app
