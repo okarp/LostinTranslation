@@ -22,7 +22,7 @@ function InputField() {
                         <p>Create a user to access the translator</p>
                         <input name="name" placeholder="What's your name?" onChange={onChange} />
                     </label>
-                    <div id="buttonDiv"><button type="button" id="button" onClick={handleSubmit}>Submit</button></div>               
+                    <div id="buttonDiv"><button type="button" id="button" onClick={handleSubmit}>Create a user</button></div>               
             </form>
         </div>
     )

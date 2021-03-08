@@ -28,9 +28,8 @@ function Translator() {
       translates += ";" + formInputValue
       localStorage.setItem('translates', translates);
   }
-  //clear form input and displayed translations
-    setImagePaths(formInputValue.split("")) 
-    console.log(localStorage.getItem("translates"))
+    //set the value of displayed translation images
+    setImagePaths(formInputValue.split(""))     
 }
 
 
