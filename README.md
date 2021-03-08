@@ -7,7 +7,8 @@ A 'user' is just a username string which is stored in the browsers local storage
 and they wont be accessible before creating a user.
 
 In the translator page you can translate words in to sign language. The 'translate' button fires the translation event, and corresponding sign language images will be displayed.
-The 'profile' page shows your latest translations, limited to max. 10 translation and ordered from newest to oldest.
+
+The 'profile' page shows your latest translations, limited to max. 10 translation and ordered from newest to oldest. Clicking 'log out' button the application will clear the data from your localstorage and redirect you back to root.
 
 ![alt text](https://i.imgur.com/XKkpyiJ.png)
 
