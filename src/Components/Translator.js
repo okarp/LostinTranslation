@@ -5,8 +5,7 @@ function Translator() {
   //state for form input
   const [formInputValue, setFormInputValue] = useState("")
   //array for translation characters. Maps 1:1 to image paths (e.g. for input b we want b.png)
-  const [imagePaths, setImagePaths] = useState([])    
-  console.log(imagePaths)
+  const [imagePaths, setImagePaths] = useState([]) 
   
   //handling form submission
   const handleSubmit = () => {  
@@ -28,7 +27,7 @@ function Translator() {
       translates += ";" + formInputValue
       localStorage.setItem('translates', translates);
   }
-    //set the value of displayed translation images
+    //split the query into array of chars and the array as image paths to be displayed
     setImagePaths(formInputValue.split(""))     
 }
 
