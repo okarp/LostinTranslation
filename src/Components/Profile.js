@@ -27,8 +27,7 @@ function Profile() {
 
     return (
         <div id="translationQueries">
-            <span id="textelement">This page displays your latest translations, 10 latest translations are saved.</span>
-            <br />
+            <span id="textelement">This page displays your latest translations, 10 latest translations are saved.</span>            
             {translationArr.length > 0 &&
                 <div>
                     {listTranslations}

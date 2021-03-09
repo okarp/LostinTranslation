@@ -42,18 +42,18 @@ const listImages = imagePaths.map((imagePath, i) =>
   return (       
     <div className="Translator"> 
     <div id="textbox">      
-      <span id="textelement2">By pressing 'translate' the translation input will be translated and saved to your user account.<br/> Visit the profile section to see your last 10 queries</span>
+      <span id="textelement">By pressing 'translate' the translation input will be translated and saved to your user account.<br/> Visit the profile section to see your last 10 queries</span>
       </div>
       <div id="formDiv">
-      <form id="translateForm">                 
-          <input type="text" value={formInputValue} onChange={e => (setFormInputValue(e.target.value))} />        
+      <form id="translateForm" >                 
+          <input type="text" placeholder="Translation query" value={formInputValue} onChange={e => (setFormInputValue(e.target.value.toLowerCase()))}/>        
           <div id="buttonDiv"><button type="button" id="button" onClick={handleSubmit}>Translate</button></div>
       </form>
       </div>      
      
         {imagePaths.length > 0 &&       
            <div id="translationBox">
-             <div><span id="textelement2">Translation for '{imagePaths}'</span></div>
+             <div id="test"><span span id="textelement">Translation for '{imagePaths}'</span></div>
              <div>{listImages}</div>            
            </div>  
       }               

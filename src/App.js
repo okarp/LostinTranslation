@@ -5,7 +5,6 @@ import React from 'react';
 import {
   BrowserRouter as Router, Switch, Route
 } from 'react-router-dom';
-import Footer from './Components/Footer';
 import './App.css'
 import Profile from './Components/Profile';
 import PrivateRouter from './Components/PrivateRouter';
@@ -19,8 +18,7 @@ function App() {
           <Route exact path="/" component={InputField} />
           <PrivateRouter path="/translator" component={Translator} />
           <PrivateRouter path="/profile" component={Profile} />
-        </Switch>
-        <Footer/>
+        </Switch>       
       </Router>
     </div>
   );
