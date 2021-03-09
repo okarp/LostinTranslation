@@ -10,7 +10,7 @@ In the translator page you can translate words in to sign language. The 'transla
 
 The 'profile' page shows your latest translations, limited to max. 10 translation and ordered from newest to oldest. Clicking 'log out' button the application will clear the data from your localstorage and redirect you back to root.
 
-![alt text](https://imgur.com/iBj1eZQ)
+![image of app](https://i.imgur.com/iBj1eZQ.png)
 
 The project is built using [React](https://reactjs.org).
 
