@@ -1,35 +1,13 @@
-.Translator{
-    text-align: center;
-}
-
-#textelement{
-    font-size: 2em;
-    font-family: cursive;
-    font-weight: 200;
-    color: whitesmoke;  
-    letter-spacing: 0.1em;
-    line-height: 1.5em;    
-}
-
-#textelement2{
-    font-size: 1.1em;
-    font-family: cursive;
-    font-weight: 200;
-    color: whitesmoke;  
-    letter-spacing: 0.1em;
-    line-height: 1.5em;    
-}
-
 #textbox{
-    padding: 3em;
+    padding: 3em;    
 }
 
-#translationBox{ 
+#translationBox{
     display: inline-block;
+    max-width: 50%;     
     padding: 5em;
-    margin-top: 20px;
-    margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    background-color:  rgb(138, 159, 180);
-}
-
+    background-color:  rgb(138, 159, 180);   
+    vertical-align:middle;
+    overflow-wrap: break-word; 
+}   
